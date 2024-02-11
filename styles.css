@@ -1,0 +1,84 @@
+/* Reset Styles */
+html,
+body,
+header,
+nav,
+main,
+section,
+article,
+aside,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Basic Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f3f3f3;
+}
+
+main {
+  padding: 80px 0;
+}
+
+.section {
+  padding: 40px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: linear-gradient(to right, #32b4ff, #6fffe9);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
